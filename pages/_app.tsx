@@ -7,6 +7,6 @@ export default function App({ Component, pageProps }: AppProps) {
   return <ContentfulLivePreviewProvider locale="en-US"
   enableLiveUpdates={true}
   >
-    <Component {...pageProps} />;
+    <Component {...pageProps} />
   </ContentfulLivePreviewProvider>
 }

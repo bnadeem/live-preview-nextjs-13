@@ -13,7 +13,7 @@ export default function Home({ data} : {data: any}) {
 
   console.log('data is: ', data)
   return (
-    <Heading text={updatedEntries.postName}></Heading>
+    <Heading text={updatedEntries.postName} sysId={updatedEntries.sys.id} fieldName="postName"></Heading>
   )
 }
 
